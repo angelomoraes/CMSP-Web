@@ -1,0 +1,114 @@
+
+body{
+    background:#e4e4e4;
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+header{
+    border: solid 20px #FFF;
+}
+
+section{
+    background:white;
+    padding-bottom: 2px;
+    margin: 25px;
+    width: 41.2%;
+}
+
+.legenda{
+    color: grey;
+    font-size: 1rem;
+}
+
+.canal{
+    color:#325794;
+    font-size:1.4rem;
+}
+
+.faixa{
+    background: #FFF;
+}
+
+.w{
+    width: 100%;
+}
+
+.pl1{
+    padding-left: 1rem;
+}
+
+.cm{
+    border-radius: 50%;
+    border: 0px solid #39F;
+    height: 3rem;
+    width: 3rem;
+    padding: 1px;
+    background-color: #FFF;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.13);
+    min-height: 50px;
+    min-width: 50px;
+    
+}
+
+.lugar{
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+
+}
+
+.letras{
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.letras, .lugar{
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cursor{
+    cursor:pointer;
+}
+
+.centro {
+    align-self: center;
+}
+
+.df{
+    display: flex;
+}
+
+.ow{
+    overflow-y:auto;
+}
+
+.owx{
+    gap: 15px;
+    display:flex;
+    padding-left: 150px;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.opc img:hover{
+    opacity:0.7;
+    border: 2px solid #325794;
+}
+
